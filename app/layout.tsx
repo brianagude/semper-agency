@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Manrope, Poppins } from "next/font/google"
+import { Manrope, Inter } from "next/font/google"
 import "./globals.css"
 
 const manrope = Manrope({
@@ -9,11 +9,10 @@ const manrope = Manrope({
   variable: "--font-manrope",
 })
 
-const poppins = Poppins({
+const inter = Inter({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-poppins",
-  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
 })
 
 export const metadata: Metadata = {
@@ -29,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${manrope.variable} ${poppins.variable} antialiased`}>
+    <html lang="en" className={`${manrope.variable} ${inter.variable} antialiased`}>
       <body className="font-sans">{children}</body>
     </html>
   )

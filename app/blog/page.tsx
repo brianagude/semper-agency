@@ -1,9 +1,14 @@
+"use client"
+
+import { useState } from "react"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { BlogGrid } from "@/components/blog-grid"
 import { BlogCategories } from "@/components/blog-categories"
 
 export default function BlogPage() {
+  const [activeCategory, setActiveCategory] = useState("All")
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -19,8 +24,8 @@ export default function BlogPage() {
             </p>
           </div>
         </section>
-        <BlogCategories />
-        <BlogGrid />
+        <BlogCategories activeCategory={activeCategory} setActiveCategory={setActiveCategory} />
+        <BlogGrid activeCategory={activeCategory} />
       </main>
       <Footer />
     </div>

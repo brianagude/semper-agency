@@ -4,76 +4,76 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(1 0 0); /* White */
-  --foreground: oklch(0.35 0 0); /* Dark gray #4b5563 equivalent */
-  --card: oklch(0.98 0 0); /* Light gray #f8f9fa equivalent */
-  --card-foreground: oklch(0.35 0 0);
+  --background: oklch(0.99 0 0); /* Off-white like Perlon Labs */
+  --foreground: oklch(0.25 0 0); /* Darker text for better contrast */
+  --card: oklch(1 0 0); /* Pure white cards */
+  --card-foreground: oklch(0.25 0 0);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.35 0 0);
+  --popover-foreground: oklch(0.25 0 0);
   --primary: oklch(0.68 0.15 15); /* Coral pink #f8597c */
-  --primary-foreground: oklch(1 0 0); /* White text on primary */
-  --secondary: oklch(0.98 0 0); /* Light gray for subtle areas */
-  --secondary-foreground: oklch(0.35 0 0);
-  --muted: oklch(0.98 0 0);
-  --muted-foreground: oklch(0.35 0 0);
-  --accent: oklch(0.69 0.16 20); /* Coral red #ff6f61 for hover states */
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.96 0 0); /* Light neutral gray */
+  --secondary-foreground: oklch(0.25 0 0);
+  --muted: oklch(0.97 0 0); /* Very light gray for subtle areas */
+  --muted-foreground: oklch(0.45 0 0); /* Medium gray for muted text */
+  --accent: oklch(0.15 0 0); /* Dark charcoal for contrast sections */
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.92 0 0); /* Light gray for borders */
+  --border: oklch(0.94 0 0); /* Subtle borders */
   --input: oklch(1 0 0);
-  --ring: oklch(0.68 0.15 15 / 0.5); /* Soft ring for focus states */
-  --chart-1: oklch(0.68 0.15 15); /* Primary coral */
-  --chart-2: oklch(0.69 0.16 20); /* Accent coral */
-  --chart-3: oklch(0.35 0 0); /* Dark gray */
-  --chart-4: oklch(0.98 0 0); /* Light gray */
-  --chart-5: oklch(0.577 0.245 27.325); /* Error red */
-  --radius: 0.5rem; /* Consistent rounded corners */
+  --ring: oklch(0.68 0.15 15 / 0.3); /* Softer focus rings */
+  --chart-1: oklch(0.68 0.15 15);
+  --chart-2: oklch(0.15 0 0);
+  --chart-3: oklch(0.45 0 0);
+  --chart-4: oklch(0.96 0 0);
+  --chart-5: oklch(0.577 0.245 27.325);
+  --radius: 0.75rem; /* Slightly more rounded for modern feel */
   --sidebar: oklch(1 0 0);
-  --sidebar-foreground: oklch(0.35 0 0);
+  --sidebar-foreground: oklch(0.25 0 0);
   --sidebar-primary: oklch(0.68 0.15 15);
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.69 0.16 20);
+  --sidebar-accent: oklch(0.15 0 0);
   --sidebar-accent-foreground: oklch(1 0 0);
-  --sidebar-border: oklch(0.92 0 0);
-  --sidebar-ring: oklch(0.68 0.15 15 / 0.5);
+  --sidebar-border: oklch(0.94 0 0);
+  --sidebar-ring: oklch(0.68 0.15 15 / 0.3);
   --font-manrope: "Manrope", sans-serif;
-  --font-poppins: "Poppins", serif;
+  --font-inter: "Inter", sans-serif;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
+  --background: oklch(0.08 0 0); /* Very dark background */
+  --foreground: oklch(0.95 0 0);
+  --card: oklch(0.12 0 0);
+  --card-foreground: oklch(0.95 0 0);
+  --popover: oklch(0.12 0 0);
+  --popover-foreground: oklch(0.95 0 0);
   --primary: oklch(0.68 0.15 15);
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.69 0.16 20);
-  --accent-foreground: oklch(1 0 0);
+  --secondary: oklch(0.18 0 0);
+  --secondary-foreground: oklch(0.95 0 0);
+  --muted: oklch(0.15 0 0);
+  --muted-foreground: oklch(0.65 0 0);
+  --accent: oklch(0.95 0 0);
+  --accent-foreground: oklch(0.08 0 0);
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.68 0.15 15 / 0.5);
+  --border: oklch(0.18 0 0);
+  --input: oklch(0.18 0 0);
+  --ring: oklch(0.68 0.15 15 / 0.3);
   --chart-1: oklch(0.68 0.15 15);
-  --chart-2: oklch(0.69 0.16 20);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-2: oklch(0.95 0 0);
+  --chart-3: oklch(0.65 0 0);
+  --chart-4: oklch(0.18 0 0);
   --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar: oklch(0.12 0 0);
+  --sidebar-foreground: oklch(0.95 0 0);
   --sidebar-primary: oklch(0.68 0.15 15);
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.69 0.16 20);
-  --sidebar-accent-foreground: oklch(1 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.68 0.15 15 / 0.5);
+  --sidebar-accent: oklch(0.95 0 0);
+  --sidebar-accent-foreground: oklch(0.08 0 0);
+  --sidebar-border: oklch(0.18 0 0);
+  --sidebar-ring: oklch(0.68 0.15 15 / 0.3);
 }
 
 @theme inline {
@@ -113,9 +113,73 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --font-sans: var(--font-manrope);
-  --font-serif: var(--font-poppins);
+  --font-sans: var(--font-inter); /* Using Inter for body text */
+  --font-serif: var(--font-manrope); /* Manrope for headings */
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Added abstract animated elements inspired by Perlon Labs */
+@keyframes float-vertical {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float-vertical {
+  animation: float-vertical 6s ease-in-out infinite;
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 3s ease-in-out infinite;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.8s ease-out forwards;
+}
+
+/* Abstract line elements */
+.abstract-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.abstract-line {
+  position: absolute;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, oklch(0.68 0.15 15 / 0.3), transparent);
+  animation: float-vertical 8s ease-in-out infinite;
 }
 
 @layer base {

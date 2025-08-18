@@ -1,11 +1,13 @@
 "use client"
 
-import { useState } from "react"
 import { Button } from "@/components/ui/button"
 
-export function BlogCategories() {
-  const [activeCategory, setActiveCategory] = useState("All")
+interface BlogCategoriesProps {
+  activeCategory: string
+  setActiveCategory: (category: string) => void
+}
 
+export function BlogCategories({ activeCategory, setActiveCategory }: BlogCategoriesProps) {
   const categories = ["All", "Marketing Insights", "Trending Keywords", "Video Repurposing"]
 
   return (

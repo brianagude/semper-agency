@@ -3,7 +3,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Calendar, Clock } from "lucide-react"
 
-export function BlogGrid() {
+interface BlogGridProps {
+  activeCategory: string
+}
+
+export function BlogGrid({ activeCategory }: BlogGridProps) {
   const blogPosts = [
     {
       id: "content-strategy-2024",
@@ -68,8 +72,11 @@ export function BlogGrid() {
     },
   ]
 
-  const featuredPost = blogPosts.find((post) => post.featured)
-  const regularPosts = blogPosts.filter((post) => !post.featured)
+  const filteredPosts =
+    activeCategory === "All" ? blogPosts : blogPosts.filter((post) => post.category === activeCategory)
+
+  const featuredPost = filteredPosts.find((post) => post.featured)
+  const regularPosts = filteredPosts.filter((post) => !post.featured)
 
   return (
     <section className="py-20 bg-background">
