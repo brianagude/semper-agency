@@ -83,7 +83,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-background/20 mt-12 pt-8 text-center">
-          <p className="font-sans text-background/60">© 2024 Semper Agency. All rights reserved.</p>
+          <p className="font-sans text-background/60">© 2025 Semper Agency. All rights reserved.</p>
         </div>
       </div>
     </footer>

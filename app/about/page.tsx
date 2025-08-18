@@ -12,8 +12,10 @@ export default function AboutPage() {
     <div className="min-h-screen bg-background">
       <Navigation />
       <main>
-        <AboutIntro />
-        <VisionMission />
+        {/* <div className=" bg-gradient-to-b from-primary/10 to-primary/80"> */}
+          <AboutIntro />
+          <VisionMission />
+        {/* </div> */}
         <CoreValues />
         <Founders />
         <Timeline />

@@ -51,7 +51,7 @@ export function CoreServices() {
             <CardHeader>
               <CardTitle className="font-serif text-2xl text-accent">Organic Social Marketing</CardTitle>
               <p className="font-sans text-muted-foreground mt-2">
-                Sh*tty engagement? NO MORE. Unorganized feed? GONE. Build a cult-like following.
+                Poor engagement? NO MORE. Unorganized feed? GONE. Build a cult-like following.
               </p>
             </CardHeader>
             <CardContent>

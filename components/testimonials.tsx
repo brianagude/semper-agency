@@ -51,9 +51,6 @@ export function Testimonials() {
 
   return (
     <section ref={sectionRef} className="relative py-20 bg-gray-50">
-      <div className="absolute top-20 left-20 w-2 h-2 bg-primary/30 rounded-full" />
-      <div className="absolute bottom-20 right-20 w-3 h-3 bg-accent/20 rounded-full" />
-      <div className="absolute top-1/3 right-10 w-1 h-1 bg-primary/40 rounded-full" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">

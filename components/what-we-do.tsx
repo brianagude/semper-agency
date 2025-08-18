@@ -5,8 +5,7 @@ export function WhatWeDo() {
         <div className="text-center mb-16">
           <h2 className="font-serif font-bold text-3xl sm:text-4xl text-foreground mb-4">What We Do</h2>
           <p className="font-sans text-lg text-muted-foreground max-w-2xl mx-auto">
-            We handle everything. The strategy, the scripting, the shooting, and the optimization. All you have to do is
-            have us come in for a few hours and work our magic.
+            We handle everything. The strategy, the scripting, the shooting, and the optimization. All you have to do is have us come in for a few hours and work our magic.
           </p>
         </div>
 

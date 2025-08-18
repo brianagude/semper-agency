@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input"
 
 export function Newsletter() {
   return (
-    <section className="py-20 relative overflow-hidden">
+    <section className="py-20 relative overflow-hidden md:py-24">
       {/* Background Image */}
       <div
         className="absolute inset-0 z-0"
@@ -13,7 +13,7 @@ export function Newsletter() {
           backgroundPosition: "center",
         }}
       />
-      <div className="absolute inset-0 bg-primary/80 z-10" />
+      <div className="absolute inset-0 bg-primary/90 z-10" />
 
       {/* Content */}
       <div className="relative z-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

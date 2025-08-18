@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
@@ -13,8 +14,8 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link href="/" className="font-serif font-bold text-2xl text-primary">
-              Semper
+            <Link href="/" className="font-serif font-bold text-primary">
+              <Image src="/semper-logo.png" alt="Sepmer logo" width={120} height={40} />
             </Link>
           </div>
 

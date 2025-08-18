@@ -75,9 +75,6 @@ export function StatsImpact() {
 
   return (
     <section ref={sectionRef} className="relative py-20 bg-white">
-      <div className="absolute top-10 left-10 w-2 h-2 bg-accent/30 rounded-full" />
-      <div className="absolute bottom-10 right-10 w-3 h-3 bg-primary/20 rounded-full" />
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1 h-1 bg-accent/40 rounded-full" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">

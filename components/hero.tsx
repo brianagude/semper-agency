@@ -12,27 +12,23 @@ export function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-white">
+    <section className="relative min-h-[95vh] flex items-center justify-center bg-white">
       <div className="absolute inset-0 z-0">
         <div
-          className="absolute inset-0 opacity-5"
+          className="absolute inset-0 opacity-10"
           style={{
             backgroundImage: `url('/modern-office-brainstorm.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         />
-        <div className="absolute top-20 right-20 w-2 h-2 bg-primary rounded-full opacity-30" />
-        <div className="absolute bottom-32 left-20 w-3 h-3 bg-accent rounded-full opacity-20" />
-        <div className="absolute top-1/3 left-10 w-1 h-1 bg-primary rounded-full opacity-40" />
-        <div className="absolute top-1/2 right-1/3 w-2 h-2 bg-accent rounded-full opacity-25" />
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1
           className={`font-serif font-bold text-4xl sm:text-5xl lg:text-6xl text-foreground mb-6 leading-tight transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          NO BULLSH*T <span className="text-primary font-black">Paid & Organic Social</span> That Drives Revenue
+          <span className="text-primary font-black">Paid & Organic Social</span><br/>That Drives Revenue
         </h1>
 
         <p

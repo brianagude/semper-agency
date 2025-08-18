@@ -40,15 +40,12 @@ export function PainPointsSolutions() {
 
   return (
     <section ref={sectionRef} className="relative py-20 bg-gray-50">
-      <div className="absolute top-10 right-10 w-3 h-3 bg-primary/20 rounded-full" />
-      <div className="absolute bottom-10 left-10 w-2 h-2 bg-accent/30 rounded-full" />
-      <div className="absolute top-1/2 right-1/4 w-1 h-1 bg-primary/40 rounded-full" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="flex justify-center mb-4">
+          {/* <div className="flex justify-center mb-4">
             <ExclamationTriangleIcon className="w-12 h-12 text-accent" />
-          </div>
+          </div> */}
 
           <h2
             className={`font-serif font-bold text-3xl sm:text-4xl text-foreground mb-4 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
