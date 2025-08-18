@@ -5,7 +5,7 @@ import { VisionMission } from "@/components/vision-mission"
 import { CoreValues } from "@/components/core-values"
 import { Founders } from "@/components/founders"
 import { Timeline } from "@/components/timeline"
-import { ServicesOverview } from "@/components/services-overview"
+import { CoreServices } from "@/components/core-services"
 
 export default function AboutPage() {
   return (
@@ -17,7 +17,7 @@ export default function AboutPage() {
         <CoreValues />
         <Founders />
         <Timeline />
-        <ServicesOverview />
+        <CoreServices />
       </main>
       <Footer />
     </div>

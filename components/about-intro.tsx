@@ -6,10 +6,11 @@ export function AboutIntro() {
           About <span className="text-primary">Semper</span>
         </h1>
         <div className="bg-card border border-primary/20 rounded-lg p-8 mb-8">
-          <p className="font-serif text-2xl sm:text-3xl text-primary mb-4">Semper = Latin for "grow"</p>
+          <p className="font-serif text-2xl sm:text-3xl text-primary mb-4">Semper = Latin for "always growing"</p>
           <p className="font-sans text-lg text-muted-foreground leading-relaxed">
-            Growth isn't just our name—it's our mission. We believe every business has untapped potential waiting to be
-            unlocked through strategic content and authentic connection.
+            A reflection of our company philosophy, but also our ever-evolving marketing strategies for our clients. We
+            provide paid and organic social marketing services through Facebook ads and Instagram content, focusing on
+            building winning strategies that help you hit your goals—not selling cheap, template-based advertising.
           </p>
         </div>
       </div>

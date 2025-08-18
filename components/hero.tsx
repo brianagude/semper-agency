@@ -32,14 +32,14 @@ export function Hero() {
         <h1
           className={`font-serif font-bold text-4xl sm:text-5xl lg:text-6xl text-foreground mb-6 leading-tight transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          Transform Your Business with <span className="text-primary font-black">Strategic Growth</span>
+          NO BULLSH*T <span className="text-primary font-black">Paid & Organic Social</span> That Drives Revenue
         </h1>
 
         <p
           className={`font-sans text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed transition-all duration-1000 delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          We help ambitious businesses unlock their potential through data-driven content strategies and social media
-          management that actually converts.
+          The truth is, you're probably great at what you do—just not enough people know about it. We handle the
+          strategy, scripting, shooting, and optimization. All you do is show up.
         </p>
 
         <div
