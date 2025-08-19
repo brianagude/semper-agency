@@ -37,7 +37,7 @@ export function Timeline() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-primary/5 to-accent/5">
+    <section className="py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-serif font-bold text-3xl sm:text-4xl text-foreground mb-4">Our Story</h2>
@@ -48,7 +48,7 @@ export function Timeline() {
 
         <div className="relative">
           {/* Timeline Line */}
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-primary/30 hidden md:block" />
+          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-background hidden md:block" />
 
           <div className="space-y-8">
             {timelineEvents.map((event, index) => (

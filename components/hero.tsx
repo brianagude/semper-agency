@@ -15,20 +15,21 @@ export function Hero() {
     <section className="relative min-h-[95vh] flex items-center justify-center bg-white">
       <div className="absolute inset-0 z-0">
         <div
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0"
           style={{
             backgroundImage: `url('/modern-office-brainstorm.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         />
+        <div className="overlay inset-0 absolute bg-gradient-to-b from-primary/90 to-gray-50/90"/>
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1
-          className={`font-serif font-bold text-4xl sm:text-5xl lg:text-6xl text-foreground mb-6 leading-tight transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+          className={`font-serif font-bold text-4xl sm:text-5xl lg:text-7xl text-foreground mb-6 leading-tight transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          <span className="text-primary font-black">Paid & Organic Social</span><br/>That Drives Revenue
+          <span className="text-white font-black">Paid & Organic Social</span><br/>That Drives Revenue
         </h1>
 
         <p
@@ -51,7 +52,7 @@ export function Hero() {
           <Button
             variant="outline"
             size="lg"
-            className="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 transform hover:scale-105 bg-transparent"
+            className="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 transform hover:scale-105 bg-white"
           >
             <Link href="/case-studies">View Our Work</Link>
           </Button>

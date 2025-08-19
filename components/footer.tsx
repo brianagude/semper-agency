@@ -1,7 +1,9 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 
 export function Footer() {
+  const year = new Date().getFullYear()
   return (
     <footer className="bg-foreground text-background py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -9,7 +11,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="font-serif font-bold text-3xl text-primary mb-4 block">
-              Semper
+              <Image src="/semper-logo.png" alt="Sepmer logo" width={120} height={40} />
             </Link>
             <p className="font-sans text-background/80 mb-6 max-w-md">
               We help ambitious businesses grow through strategic content creation and social media management that
@@ -83,7 +85,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-background/20 mt-12 pt-8 text-center">
-          <p className="font-sans text-background/60">© 2025 Semper Agency. All rights reserved.</p>
+          <p className="font-sans text-background/60">© {year} Semper Agency. All rights reserved.</p>
         </div>
       </div>
     </footer>

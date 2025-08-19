@@ -21,7 +21,7 @@ export function CoreServices() {
     <section className="py-20 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="font-serif font-bold text-3xl sm:text-4xl text-foreground mb-4">Our Two Core Services</h2>
+          <h2 className="font-serif font-bold text-3xl sm:text-4xl text-foreground mb-4">Our Core Services</h2>
           <p className="font-sans text-lg text-muted-foreground max-w-2xl mx-auto">
             We specialize in exactly two things—and we're damn good at both of them.
           </p>

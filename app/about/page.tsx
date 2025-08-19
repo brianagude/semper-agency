@@ -12,13 +12,13 @@ export default function AboutPage() {
     <div className="min-h-screen bg-background">
       <Navigation />
       <main>
-        {/* <div className=" bg-gradient-to-b from-primary/10 to-primary/80"> */}
-          <AboutIntro />
-          <VisionMission />
-        {/* </div> */}
+        <AboutIntro />
+        <VisionMission />
         <CoreValues />
-        <Founders />
-        <Timeline />
+        <div className="bg-gradient-to-b from-muted/30 to-primary/80">
+          <Founders />
+          <Timeline />
+        </div>
         <CoreServices />
       </main>
       <Footer />

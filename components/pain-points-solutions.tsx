@@ -66,6 +66,7 @@ export function PainPointsSolutions() {
             <h3
               className={`font-serif font-semibold text-2xl text-foreground mb-8 transition-all duration-700 delay-300 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-6"}`}
             >
+              <ExclamationTriangleIcon className="w-8 h-8 text-primary inline mr-2" />
               Common Struggles
             </h3>
             {painPoints.map((point, index) => (
